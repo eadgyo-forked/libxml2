@@ -21,7 +21,7 @@ warned.
 package clib
 
 /*
-#cgo pkg-config: --static libxml-2.0 pthread
+#cgo pkg-config: --static libxml-2.0 pthread-stubs
 #include <string.h>
 #include <stdbool.h>
 #include <stdio.h>
