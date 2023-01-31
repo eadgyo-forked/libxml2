@@ -22,6 +22,7 @@ package clib
 
 /*
 #cgo LDFLAGS: -lxml2 -lpthread
+#cgo CFLAGS: -I/usr/include/libxml2
 #include <string.h>
 #include <stdbool.h>
 #include <stdio.h>
