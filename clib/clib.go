@@ -21,7 +21,7 @@ warned.
 package clib
 
 /*
-#cgo LDFLAGS: -lxml2 -lpthread
+#cgo LDFLAGS: -static -lxml2 -lpthread
 #cgo CFLAGS: -I/usr/include/libxml2
 #include <string.h>
 #include <stdbool.h>
