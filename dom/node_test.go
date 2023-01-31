@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/lestrrat-go/libxml2/clib"
-	"github.com/lestrrat-go/libxml2/types"
+	"github.com/eadgyo-forked/libxml2/clib"
+	"github.com/eadgyo-forked/libxml2/types"
 	"github.com/stretchr/testify/assert"
 )
 

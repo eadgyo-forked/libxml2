@@ -3,8 +3,8 @@ package dom_test
 import (
 	"testing"
 
-	"github.com/lestrrat-go/libxml2"
-	"github.com/lestrrat-go/libxml2/dom"
+	"github.com/eadgyo-forked/libxml2"
+	"github.com/eadgyo-forked/libxml2/dom"
 	"github.com/stretchr/testify/assert"
 )
 

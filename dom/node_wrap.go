@@ -5,8 +5,8 @@ package dom
 import (
 	"fmt"
 
-	"github.com/lestrrat-go/libxml2/clib"
-	"github.com/lestrrat-go/libxml2/types"
+	"github.com/eadgyo-forked/libxml2/clib"
+	"github.com/eadgyo-forked/libxml2/types"
 )
 
 func wrapNamespaceNode(ptr uintptr) *Namespace {
@@ -69,6 +69,6 @@ func WrapNode(n uintptr) (types.Node, error) {
 	case clib.PiNode:
 		return wrapPiNode(n), nil
 	default:
-		return nil, fmt.Errorf("unknown node: %d", typ)
+		return nil, fmt.Errorf("unknown node: %%d", typ)
 	}
 }
